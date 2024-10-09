@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>p4_position_figma</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #elipse{
+            z-index: 3;
+            position: absolute;
+            width: 384px;
+            height: 704px;
+            background-color: #FE65A6;
+            border-radius: 300px;
+            left: 0;
+            bottom: 0;
+        }
+        #rectangle{
+            z-index: 2;
+            position: absolute;
+            top: 192px;
+            right: 192px;
+            width: 640px;
+            height: 64px;
+            transform: rotate(-18deg);
+            background-color: #28AEEB;
+        }
+        #cercle-xs{
+            z-index: 1;
+            position: absolute;
+            right: 0;
+            top: 256px;
+            width: 256px;
+            height: 256px;
+            background-color: #03CF69;
+            border-radius: 256px;
+        }
+        #cercle-l{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 384px;
+            height: 384px;
+            background-color: #03CF69;
+            border-radius: 384px;
+        }
+        .border{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="border" id="elipse"></div>
+    <div class="border" id="rectangle"></div>
+    <div class="border" id="cercle-xs"></div>
+    <div class="border" id="cercle-l"></div>
+</body>
+</html>
